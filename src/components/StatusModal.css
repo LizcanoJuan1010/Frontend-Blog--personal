@@ -1,0 +1,38 @@
+/* Contenedor Principal del Modal */
+.status-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Caja de Estado */
+.status-box {
+  background-color: #4a624c;
+  padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Spicy Rice', cursive;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 4px solid #fff;
+}
+
+/* Icono de Estado */
+.status-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Mensaje de Estado */
+.status-message {
+  font-size: 1rem;
+}

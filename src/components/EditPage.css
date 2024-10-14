@@ -1,0 +1,182 @@
+/* Importa la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+/* Contenedor Principal */
+.edit-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background-color: #d9e4dd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  background-image: url('User1.jpg'); /* Cambia la ruta de la imagen del avatar */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.user-info p {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 1.2rem;
+  color: #4a624c;
+}
+
+.sidebar-menu .menu-item {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #4a624c;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-menu .menu-item:hover {
+  background-color: #76c893;
+}
+
+.logout {
+  margin-top: auto;
+  padding: 10px;
+  background: none;
+  color: #4a624c;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Spicy Rice', cursive;
+}
+
+/* Main Section */
+.edit-main {
+  flex: 1;
+  padding: 20px;
+  background-image: url('xd.jpg'); /* Añade tu imagen de fondo aquí */
+  background-size: cover;
+  color: #333;
+}
+
+.edit-main h1 {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4a624c;
+}
+
+/* Editor de Publicación */
+.edit-content {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Spicy Rice', cursive;
+}
+
+.post-header p {
+  font-size: 1.2rem;
+  color: #4a624c;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #333;
+}
+
+.post-text {
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  resize: none;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.tag-section {
+  margin-top: 15px;
+}
+
+.tag-section p {
+  font-size: 0.9rem;
+  font-family: 'Spicy Rice', cursive;
+  color: #4a624c;
+  margin-bottom: 10px;
+}
+
+.tag {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  margin-right: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tag.neutral { background-color: #4a624c; }
+.tag.happy { background-color: #f9c74f; }
+.tag.sad { background-color: #577590; }
+.tag.angry { background-color: #f94144; }
+
+.post-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Spicy Rice', cursive;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn.draft {
+  background-color: #b0b0b0;
+}
+
+.btn.publish {
+  background-color: #4a624c;
+}

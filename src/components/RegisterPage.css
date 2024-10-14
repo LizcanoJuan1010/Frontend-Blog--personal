@@ -1,0 +1,64 @@
+/* Importa la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+/* Contenedor Principal */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('background.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Caja de Registro */
+.register-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.register-box h1 {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #4a624c;
+}
+
+label {
+  display: block;
+  font-family: 'Spicy Rice', cursive;
+  font-size: 1rem;
+  color: #4a624c;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn-register {
+  background-color: #4a624c;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Spicy Rice', cursive;
+  transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #76c893;
+}
