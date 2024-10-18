@@ -72,7 +72,7 @@
 
 /* Main Section */
 .drafts-main {
-  flex: 1;
+  flex: 4;
   padding: 20px;
   background-image: url('xd.jpg'); /* Añade tu imagen de fondo aquí */
   background-size: cover;
@@ -85,6 +85,8 @@
   margin-bottom: 20px;
   text-align: center;
   color: #4a624c;
+background-image: url('xd.jpg'); /* Añade tu imagen de fondo aquí */
+  background-size: cover;
 }
 
 /* Borrador */
