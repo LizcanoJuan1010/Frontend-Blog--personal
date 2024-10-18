@@ -24,14 +24,14 @@ function App() {
   return (
     <div>
       {/* Selecciona el componente que deseas ver */}
-      {/*<WelcomePage /> */}
-       {/*<LoginPage /> */}
+      {/*<WelcomePage />*/}
+       {/*<LoginPage />*/}
       {/*<RegisterPage />*/}
-       {/*<EntriesPage /> */}
-       {/*<CreatePage />*/}
+       {/*<EntriesPage />*/}
+       <CreatePage />
        {/*<DashboardPage />*/} 
        {/*<DraftsPage />*/}
-      <EditPage /> 
+      {/*<EditPage /> */}
       
       {/* Renderiza el modal de estado si hay un status activo */}
       {status && <StatusModal type={status} />}
