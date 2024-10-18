@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.status-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.status-buttons button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4a624c;
+  cursor: pointer;
+}
+
+.status-buttons button:hover {
+  background-color: #76c893;
+}
